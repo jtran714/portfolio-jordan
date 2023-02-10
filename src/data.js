@@ -28,24 +28,12 @@ import HeroDark from "./images/hero-dark.jpg";
 export { HeroLight as Light };
 export { HeroDark as Dark };
 
-/* START HERE
- **************************************************************
-  Add your GitHub username
-*/
 export const githubUsername = "jtran714";
 
 // Blog link icon (imported above)
 export const Blog = <FaLinkedin />;
-
-/* About Me
- **************************************************************
-  Add a second paragraph for the about me section.
-*/
 export const moreInfo = "Hello, Welcome to my page! I'm a computer programmer aspiring to contribute and make an impact in the tech industry. I'm a Full Stack Software Engineer who appreciates clean and concise code. I'm a Hack Reactor Coding Bootcamp graduate that's passionate about building, and designing applications to their full potential. My prior experience helped me transition into technology and provided me with valuable skills and traits to integrate smoothly into my future here in the tech industry."
-/* Skills
- ************************************************************** 
-  Add or remove skills in the SAME format below, there must be one icon imported above per skill below.
-*/
+
 export const skillData = [
   {
     id: 1,
@@ -131,9 +119,4 @@ export const projectCardImages = [
   },
 ];
 
-/* Contact Info
- ************************************************************** 
-  Add your formspree endpoint below.
-  https://formspree.io/
-*/
 export const formspreeUrl = "https://formspree.io/f/xeqwakjr";
